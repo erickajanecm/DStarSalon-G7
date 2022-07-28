@@ -1,0 +1,53 @@
+<ion-content>
+
+  <!--icon-->
+  <div class = " container ion-text-center">
+    <img src = "assets/icon/icon.png">
+  </div>
+
+  <!--sign up card-->
+  <div class="card-flex">
+    <ion-card>
+      <ion-card-content>
+
+        <ion-item>
+          <ion-label position="floating">Full Name</ion-label>
+          <ion-input type="text" placeholder="First Name              Last Name"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email" placeholder="Enter Email"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type="password" placeholder="Enter Password"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Confirm Password</ion-label>
+          <ion-input type="password" placeholder="Confirm Password"></ion-input>
+        </ion-item>
+
+        <br><br>
+        <ion-button [routerLink]="['/home']" expand="block" fill="solid" color="success" type="submit">
+          Create Account
+        </ion-button>
+
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!--nav to login-->
+  <br>
+  
+  <div class="ion-text-center text-stl2">
+    <ion-text>Already have an account?</ion-text>
+  </div>
+
+  <div class="ion-text-center text-stl">
+    <ion-text [routerLink]="['/login']">Log In</ion-text>
+  </div>
+
+</ion-content>

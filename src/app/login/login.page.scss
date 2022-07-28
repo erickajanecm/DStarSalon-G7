@@ -1,0 +1,31 @@
+ion-content {
+    --background: #FDF6F0;
+}
+
+.container {
+    img {
+        height: 100px;
+        margin-top: 30%; 
+    }
+}
+
+.card-flex{
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.text-stl{
+    font-size: medium;
+    font-weight: bold;
+    color: #F5C6AA;
+}
+
+.text-stl2{
+    font-size: medium;
+    font-weight: normal;
+    color: #000;
+}

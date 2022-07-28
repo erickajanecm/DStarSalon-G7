@@ -1,0 +1,7 @@
+{
+  "name": "FinalDSS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
